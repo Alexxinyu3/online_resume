@@ -1,16 +1,16 @@
 basic:
-  name: Foo Bar                      # name
-  title: Backend Developer           # job title
+  name: Shan Xinyu                    # name
+  title: Data Scientist           # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /assets/images/profile.png # avatar file path
+    path: /assets/images/shan.png # avatar file path
 
 contact:
   # meta
-  location: Beijing, China # location
-  email: me@example.com    # email address
-  phone: +86-111-2222-3333 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
+  location: Rouen, France # location
+  email: shanxy1999@gmail.com    # email address
+  phone: +33-0666032462  # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  
 
   gender:                  # gender or pronoun
   birthday:                # birthday
@@ -28,7 +28,7 @@ contact:
   threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github:                  # username          | https://github.com/username
+  github: Alexxinyu3                 # username          | https://github.com/username
   gitlab:                  # username          | https://gitlab.com/username
   bitbucket:               # username          | https://bitbucket.com/username
   stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
@@ -59,7 +59,7 @@ contact:
   artstation:              # username          | https://www.artstation.com/username
 
   # other cv
-  linkedin:                # username          | https://linkedin.com/in/username
+  linkedin: xinyu-shan-42b383305                # username          | https://linkedin.com/in/username
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
@@ -79,7 +79,7 @@ contact:
   strava:                  # useid             | https://www.strava.com/athletes/userid
 
 profile:
-  show: true
+  show: false
   order: 1
   title: Profile
   description: |
@@ -89,11 +89,10 @@ profile:
 
 experience:
   show: true
-  order: 2
+  order: 4
   title: Experiences
   description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
-
+    
   items:
     - company: Second Company
       link: '#'
@@ -149,7 +148,7 @@ project:
 
 skill:
   show: true
-  order: 4
+  order: 5
   title: Skills
   description: |
     The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
@@ -199,18 +198,15 @@ skill:
 
 education:
   show: true
-  order: 5
+  order: 2
   title: Education
   description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
-
+  
   items:
-    - institution: Example University
+    - institution: ESIEGELC-ROUEN
       link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
+      date: 2023 - 2025
+      major: Embedded Artificial Intelligence
       degree: Master
       description: |
         Additional information for this institution.
